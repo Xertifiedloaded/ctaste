@@ -1,0 +1,313 @@
+.container {
+    width: 100%;
+
+}
+
+* {
+    margin: 0;
+
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.col {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.col>.row-1 {
+    width: 40%;
+    background-color: #d7ac4eac;
+    
+    height: 200vh;
+}
+
+.col>.row-2 {
+    height: 100vh;
+    width: 60%;
+    /* height: 100vh; */
+    background-color: white;
+    /* border: 3px solid red; */
+    border-radius: 10px;
+    padding-top: 30px;
+
+
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 90px auto;
+    /* border: 1px solid black; */
+}
+
+.logo-container {
+    width: 100%;
+    text-align: center;
+}
+
+.logo-container>.logo {
+    width: 50%;
+}
+
+.content {
+    line-height: 2;
+}
+
+.text-container {
+    width: 100%;
+    text-align: center;
+}
+
+.text-container>.welcome {
+    font-size: 36px;
+    color: #0d121ebb;
+}
+
+.text-container>.platform {
+    /* padding: 20px; */
+    color: #0d121ebb;
+    font-size: 20px;
+    text-transform: capitalize;
+
+
+}
+
+.text-container>.platform .student {
+    display: block;
+
+}
+
+.content-box {
+    text-align: center;
+    line-height: 2;
+    text-transform: capitalize;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row-2-container {
+    width: 70%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    /* height: 100vh; */
+}
+
+.all {
+    width: 99%;
+
+}
+
+.content-box>.create {
+    font-size: 24px;
+    font-weight: 900;
+    color: black;
+}
+
+.content-box>.account {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #9fa0a3;
+}
+
+.content-box>.account .sign-in-here {
+    color: #ebab21;
+    font-weight: bold;
+}
+
+.content-box .content-input {
+    /* border: 1px solid red; */
+    width: 100%;
+    border: none;
+}
+
+.with-google {
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(150, 29, 29, 0.784);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.google-img {
+    width: 5%;
+}
+
+.google-text {
+    text-transform: capitalize;
+    padding-left: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+.with-google:hover {
+    background-color: white;
+}
+
+.form-container {
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    /* height: 30px; */
+
+}
+
+fieldset {
+    margin-top: 25px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 90%;
+    text-align: center;
+    text-transform: lowercase;
+    color: #b4b5bbe3;
+}
+
+fieldset>legend {
+    color: #ebab21;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.form {
+    width: 100%;
+
+}
+
+.form-input {
+    width: 100%;
+    margin: 12px 0;
+}
+
+.form-input>.my-label {
+    display: block;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 7px 0;
+
+}
+
+.form-input>.my-input {
+    width: 100%;
+    padding: 12px 0;
+    background-color: rgb(235, 237, 243);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.select-school {
+    width: 100%;
+    padding: 12px 0;
+    background-color: rgb(235, 237, 243);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+option {
+    text-transform: capitalize;
+}
+
+.label-flex {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+sup {
+    color: red;
+}
+
+.date-flex {
+    display: flex;
+    justify-content: right;
+
+}
+
+.open-close {
+    /* padding-left: 40px; */
+    flex: 0 0 27%;
+    margin: 0 2px;
+    padding: 7px 0;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #9fa0a3;
+    align-items: center;
+    background-color: rgb(235, 237, 243);
+    ;
+    padding: 9px 0;
+
+}
+
+.div>.my-input11 {
+    width: 95%;
+    border: none;
+    outline: none;
+    background-color: rgb(235, 237, 243);
+    ;
+}
+
+.fa-thin {
+    width: 5%;
+    background-color: rgb(235, 237, 243);
+}
+
+.character {
+    font-size: 14px;
+    padding: 7px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+
+}
+
+.check {
+
+    width: 5%;
+    height: 20px;
+}
+
+.terms {
+    padding-left: 10px;
+}
+
+.btn-container {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    /* border: 1px solid yellow; */
+    padding: 7px 0;
+}
+
+.signup-btn {
+    width: 40%;
+    padding: 3% 0;
+    border: none;
+    background-color: #ebab21;
+    border-radius: 8px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.signup-btn:hover{
+    background-color: brown;
+}
