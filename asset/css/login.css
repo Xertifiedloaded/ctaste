@@ -16,26 +16,26 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
+    height: 100vh;
 
 }
 
 .col>.row-1 {
     width: 40%;
     background-color: #d7ac4eac;
-    
-    height: 200vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
 
 .col>.row-2 {
-    height: 100vh;
+
     width: 60%;
-    /* height: 100vh; */
     background-color: white;
-    /* border: 3px solid red; */
     border-radius: 10px;
     padding-top: 30px;
-
+    overflow-y: scroll;
 
 }
 
@@ -150,7 +150,7 @@ body {
 }
 
 .with-google:hover {
-    background-color: white;
+    background-color:  #d7ac4eac;
 }
 
 .form-container {
@@ -212,6 +212,7 @@ fieldset>legend {
     border: none;
     border-radius: 5px;
     text-decoration: none;
+    outline: none;
 }
 
 option {
@@ -245,7 +246,7 @@ sup {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border: 1px solid #9fa0a3;
+    /* border: 1px solid #9fa0a3; */
     align-items: center;
     background-color: rgb(235, 237, 243);
     ;
@@ -308,6 +309,6 @@ sup {
     text-transform: capitalize;
 }
 
-.signup-btn:hover{
+.signup-btn:hover {
     background-color: brown;
 }
