@@ -16,7 +16,8 @@
 
 body {
     background-color: #e9ebee;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+ font-family: sans-serif;
 }
 
 .container {
@@ -315,14 +316,15 @@ a {
     border-radius: 10px;
 
 }
-.anchor:hover{
+
+.anchor:hover {
     color: blue;
 }
 
 .collection-section {
     margin: 60px 0;
     background-color: #e9ebee;
-    
+
 }
 
 .food-collection {
@@ -391,47 +393,59 @@ a {
     width: 100%;
 }
 
-.flex-item{
+.flex-item {
     background-color: #e9ebee;
 }
 
-.container1{
-width: 95%;
-margin: 0 auto;
-border: 1px solid yellow;
+.container1 {
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid yellow;
 }
 
-.box-container{
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-transition: all 5s;
-scale: 1;
+.box-container {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    transition: all 5s;
+    scale: 1;
+    row-gap: 10px;
+    column-gap: 10px;
+
+
 }
-.box:hover{
-    scale: 1.1;
+
+.box:hover {
+    scale: 1.015;
 }
-.box{
+
+.shawarma {
+    padding-right: 30%;
+
+}
+
+.box {
     width: 30%;
-    /* border: 1px solid red; */
-    /* height: 200px; */
-    margin-left: 20px;
+   border: 1px solid #e8e8e8;
     display: flex;
     justify-content: space-between;
     box-shadow: 0 1.4px 2.8px rgb(28 28 28 / 8%);
     text-transform: capitalize;
     border: 1px solid white;
     color: #1c1c1c;
-    padding: 15px;
-    font-size: 20px;
+    padding: 5px;
+    font-size: 18px;
+   
+
+}
+
+.box>.food-type {
+    font-size: 18px;
     font-weight: lighter;
 }
 
-.box > .food-type{
-    font-size: 18px;
-}
-.box-container1{
+.box-container1 {
     width: 95%;
     display: flex;
     justify-content: flex-start;
@@ -439,77 +453,176 @@ scale: 1;
     margin-top: 20px;
 
 }
-.pieces{
+
+.pieces {
     display: block;
 }
 
-.content-container{
+.content-container {
 
     width: 90%;
     margin: 0 auto;
 
 
 }
-.content-container-1{
-    
+
+.content-container-1 {
+
     margin-bottom: 70px;
 }
-.footer{
+
+.footer {
     width: 95%;
     display: flex;
     justify-content: start;
     /* align-items: center; */
     margin: 0 auto;
-    
+
 }
-.flex-product{
-   flex: 0 0 22%;
-   list-style-type: none;
-   
+
+.flex-product {
+    flex: 0 0 22%;
+    list-style-type: none;
+
 }
-.flex-product-list{
+
+.flex-product-list {
     font-size: 14px;
     padding: 4px 0;
 }
-.web{
+
+.web {
     color: #696969;
     text-decoration: none;
 }
-.logo-footer{
-width: 50%;
-margin: 30px 0;
+
+.logo-footer {
+    width: 50%;
+    margin: 30px 0;
 
 
 }
-.logo-footer> .footer-logo{
+
+.logo-footer>.footer-logo {
     width: 20%;
     margin-top: 30px;
 }
-.bold{
+
+.bold {
     font-weight: bold;
 }
-.social-container{
+
+.social-container {
     display: inline;
     width: 50%;
 }
-.social-logo{
+
+.social-logo {
     width: 10%;
     padding: 0 auto;
     margin-left: 2px;
 }
-.my-footer{
+
+.my-footer {
     background-color: white;
 }
-hr{
-margin: 20px auto;
+
+hr {
+    margin: 20px auto;
 
 }
-.copyright{
+
+.copyright {
     width: 100%;
 }
-.copyright >.small{
+
+.copyright>.small {
     font-size: 0.86em;
 }
-.funaab{
+
+.funaab {
     color: #ebab21;
+}
+
+@media screen and (max-width:600px) {
+    .cards {
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .card {
+        width: 40%;
+        margin: 0;
+
+    }
+
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .box-container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: block;
+       
+    }
+    
+
+    .box {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0;
+        row-gap: 20px;
+        transition: none;
+        scale: 1;
+    }
+    .box:hover{
+        scale: 1;
+    }
+
+    .logo-footer {
+        text-align: center;
+        width: 100%;
+    }
+
+    .logo-footer>.footer-logo {
+        width: 40%;
+    }
+
+    .footer {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .flex-product-list {
+        width: 100%;
+    }
+
+    .flex-product {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .info {
+        font-size: 12px;
+    }
+
+    .social-container {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .social-logo {
+        width: 5%;
+    }
+    .copyright>small{
+        font-size: smaller;
+    }
 }

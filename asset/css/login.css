@@ -23,9 +23,9 @@ body {
 .col>.row-1 {
     width: 40%;
     background-color: #d7ac4eac;
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -150,7 +150,7 @@ align-items: center;
 }
 
 .with-google:hover {
-    background-color:  #d7ac4eac;
+    background-color: #d7ac4eac;
 }
 
 .form-container {
@@ -311,4 +311,65 @@ sup {
 
 .signup-btn:hover {
     background-color: brown;
+}
+
+@media screen and (max-width:600px) {
+    body{
+        font-size: 10px;
+    }
+    .col {
+        display: block;
+        width: 100%;
+    }
+    .text-container{
+        width: 100%;
+    }
+    .welcome{
+        font-size: calc(1.2rem + 1.1vw) !important;
+    }
+.platform{
+    font-size: calc(1rem + .3vw) !important;
+}
+    .col>.row-1 {
+        width: 100%;
+        /* display: block; */
+    }
+    .content-box{
+        width: 100%;
+        line-height: 2.2;
+    }
+    .content-box>.create {
+      font-size: 12px ; 
+    }
+    .content-box> .account{
+        font-size: 12px ;
+    }
+
+    .flex-container {}
+
+    .col>.row-2 {
+        width: 100%;
+    }
+
+    .row-2-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .open-close {
+        /* margin: 0; */
+        flex: 0 0 40%;
+
+    }
+
+    .data-flex {
+
+        column-gap: 10px;
+    }
+
+    .label-flex {
+        width: 100%;
+        font-size: 12px;
+    }
+
 }
